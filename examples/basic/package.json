@@ -1,0 +1,17 @@
+{
+  "name": "example-basic",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@your-org/fastify-rate-limiter": "*",
+    "fastify": "^4.27.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
