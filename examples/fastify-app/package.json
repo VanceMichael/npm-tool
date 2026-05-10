@@ -1,0 +1,16 @@
+{
+  "name": "fastify-rate-limiter-example",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic/rate-limiter": "*",
+    "fastify": "^4.28.0",
+    "ioredis": "^5.4.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  }
+}

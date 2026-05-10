@@ -1,0 +1,16 @@
+{
+  "name": "fastify-rate-limiter-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w packages/rate-limiter",
+    "test": "npm test -w packages/rate-limiter",
+    "example": "npm start -w examples/fastify-app"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
